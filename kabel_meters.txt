@@ -1,0 +1,35 @@
+21.544 meters;  all=21.544 lan_wifi.js:59:11
+26.445 meters;  all=47.989000000000004 lan_wifi.js:59:11
+30.534 meters;  all=78.523 lan_wifi.js:59:11
+35.028999999999996 meters;  all=113.55199999999999 lan_wifi.js:59:11
+40.597 meters;  all=154.149 lan_wifi.js:59:11
+34.361999999999995 meters;  all=188.511 lan_wifi.js:59:11
+28.62 meters;  all=217.131 lan_wifi.js:59:11
+24.096 meters;  all=241.227 lan_wifi.js:59:11
+20.471 meters;  all=261.698 lan_wifi.js:59:11
+16.701 meters;  all=278.399 lan_wifi.js:59:11
+26.213 meters;  all=304.612 lan_wifi.js:59:11
+26.097 meters;  all=330.709 lan_wifi.js:59:11
+10.64 meters;  all=341.349 lan_wifi.js:59:11
+
+blue 708 +
+red 1020
+?
+
+
+<div class="Dot" style="top: 195px; left: 52px;"></div>
+<div class="Dot" style="top: 296px; left: 51px;"></div>
+<div class="Dot" style="top: 280px; left: 694px;"></div>
+<div class="Dot" style="top: 171px; left: 681px;"></div>
+
+<div class="Dot" style="top: 420px; left: 1084px;"></div>
+<div class="Dot" style="top: 537px; left: 547px;"></div>
+<div class="Dot" style="top: 536px; left: 460px;"></div>
+<div class="Dot" style="top: 430px; left: 1337px;"></div>
+
+<div class="Dot" style="top: 324px; left: 1338px;"></div>
+<div class="Dot" style="top: 542px; left: 1200px;"></div>
+<div class="Dot" style="top: 542px; left: 1280px;"></div>
+
+
+
