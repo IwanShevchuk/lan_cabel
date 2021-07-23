@@ -10,17 +10,18 @@ class Server {
   }
 
   draw() {
-    this.div.css({ top: this.x, left: this.y }).addClass(this.cssClass);
+    this.div.css({ top: this.y, left: this.x }).addClass(this.cssClass);
     this.div.appendTo($("#Wrap"));
   }
 }
 
 
-const server1 = new Server(240, 790, "box1");
+const server1 = new Server(240 , 790, "box1");
 server1.draw();
 
-const server2 = new Server(1080, 1540, "box2");
+const server2 = new Server(1540, 1080, "box2");   
 server2.draw();
+
 
 let cordsArray = [];
 
@@ -36,7 +37,7 @@ function printMousePos(e) {
   cursorX = e.pageX;
   cursorY = e.pageY;
 
-  $("#test").text("pageX: " + cursorX + ",pageY: " + cursorY);
+  $("#label_test").text("pageX: " + cursorX + ",pageY: " + cursorY);
   const cords = {
     cursorX,
     cursorY,
@@ -54,6 +55,7 @@ function printMousePos(e) {
     if (cursorX > 910) {
       $("body").addClass("day-background");
       len_xy = caclulateDistanceTo(server2, "Dot");
+	  
     } else {
       $("body").removeClass("day-background");
       len_xy = caclulateDistanceTo(server1, "Dot");
@@ -68,7 +70,7 @@ function printMousePos(e) {
   }
 
   function caclulateDistanceTo(server, cssClass) {
-    len_xy = (Math.abs(server.x - this.x) + Math.abs(server.y - this.y)) * 29.5; //pixels size coeficient(29,5) to mm
+    len_xy = ( Math.abs(server.x - this.x) + Math.abs(server.y - this.y) ) * 29.5; //pixels size coeficient(29,5) to mm
     len_xy = len_xy / 1000 + 5; // convert images pixels to --> meters  + 6 meters zapasu
     $div = $("<div/>");
     $div.css({ top: this.y, left: this.x }).addClass(cssClass);
